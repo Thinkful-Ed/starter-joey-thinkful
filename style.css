@@ -1,0 +1,56 @@
+header{
+background-color: #0B1C51;
+}
+
+header h1{
+    color: white;
+    text-align: center;
+    font-size: 52px;
+    padding-top: 40px;
+}
+
+.group{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+header nav ul li a{
+    color: white;  
+    margin: 0 20px 0 0;
+    text-decoration: none;
+}
+
+header nav ul li{
+    font-family: Montserrat;
+}
+
+
+@media all and (min-width: 600px){        
+        header h1{
+            color: white;
+            text-align: start;
+            font-size: 48px;
+            padding-top: 100px;
+            padding-left: 50px;
+        }
+        
+        .group{
+            display:flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            padding-bottom: 60px;
+        }
+        
+        header nav ul li a{
+            color: white;  
+            margin: 0 20px 0 0;
+            text-decoration: none;
+        }
+        
+        header nav ul li{
+            font-family: Montserrat;
+            font-size:xx-large;
+        }
+        
+}
